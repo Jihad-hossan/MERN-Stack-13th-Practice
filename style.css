@@ -1,0 +1,15 @@
+:root {
+    --text_color: #fff;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.card{
+    background-color: #b3d5e8;
+}
+.output_field{
+    min-height: 100px;
+}

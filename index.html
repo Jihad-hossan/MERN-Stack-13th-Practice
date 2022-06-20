@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERN Stack 13th Class Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Great+Vibes&family=Roboto:ital@1&family=Rubik+Moonrocks&family=Satisfy&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card my-5">
+                    <div class="card-header text-center">
+                        Section Dynamic
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group my-3">
+                            <label for="">Heading</label>
+                            <input id="c_heading" type="text" class="form-control">
+                        </div>
+                        <div class="form-group my-3">
+                            <label for="text-align">Text Align</label><br>
+                            <label><input  type="radio" name="align" value="left" class="align">Left</label>
+                            <label><input  type="radio" name="align" value="center" class="align">Center</label>
+                            <label><input  type="radio" name="align" value="right" class="align">Right</label>
+                        </div>
+                        <div class="form-group my-3">
+                            <label for="">Size</label>
+                            <input  class="w-100" min="0" max="100" step="1px" value="20" type="range" name="" id="font_size">
+                        </div>
+                        <div class="form-group my-3">
+                            <label for="color">Color</label>
+                            <input type="color" name="color" id="color">
+                        </div>
+                        <div class="form-group my-3">
+                            <label for="font-family">Font Family</label>
+                            <select class="form-control" name="" id="font_family">
+                                <option value="">-select-</option>
+                                <option value="impact">Impact</option>
+                                <option value="Fredoka One">Fredoka One</option>
+                                <option value="Great Vibes">Great Vibes</option>
+                                <option value="Roboto">Roboto</option>
+                                <option value="Rubik Moonrocks">Rubik Moonrocks</option>
+                                <option value="Satisfy">Satisfy</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <section class="my-5 border output_field">
+                    <h1></h1>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
